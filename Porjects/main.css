@@ -47,6 +47,12 @@ body {
 .plan__title {
   color: #0e4f1f;
 }
+.plan--highlighted .plan__title {
+  color: white;
+}
+.plan--highlighted .plan__price {
+  color: #0e4f1f;
+}
 .plan__features {
   list-style: none;
   margin: 0;
@@ -58,10 +64,19 @@ body {
 .plan__price {
   color: #858585;
 }
-.plan--highlighted .plan__title{
-  color: white
+.button {
+  background: #0e4f1f;
+  color: white;
+  font: inherit;
+  border: 1.5px solid #0e4f1f;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
 }
-.plan--highlighted .plan__price {
+.button:hover,
+.button:active {
+  background: white;
   color: #0e4f1f;
 }
 .main-header {
